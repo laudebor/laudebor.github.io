@@ -84,3 +84,79 @@ body{
     color:rgb(255, 159, 159);
     cursor: pointer;
 }
+
+/* PROFILE */
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+}
+
+.accordion-button{
+    font-family: 'Open Sans', sans-serif !important;
+    letter-spacing: 2px !important;
+    background: rgb(80, 77, 77) !important;
+    color:white;
+}
+
+.accordion-item {
+    --bs-accordion-border-color:rgb(255, 159, 159);
+}
+
+.accordion {
+      --bs-accordion-btn-focus-box-shadow: 0 0 0 0.08rem rgb(255, 255, 255);
+}
+
+.accordion-button::before{
+    color:white !important;
+}
+.accordion-button::after{
+    color:white !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+}
+
+
+
+
+/* .profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    height: 150px;
+    width: 250px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  } */
+  
