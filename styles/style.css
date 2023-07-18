@@ -151,6 +151,11 @@ body{
       --bs-accordion-btn-focus-box-shadow: 0 0 0 0.08rem rgb(255, 255, 255);
 }
 
+.accordion-collapse{
+    background: rgb(58, 57, 57) !important;
+    color: white !important;
+}
+
 .accordion-button::before{
     color:white !important;
 }
@@ -164,13 +169,19 @@ body{
 
 .github-link, .certification-icon{
     text-decoration: none;
-    color: rgb(58, 57, 57);
+    color: white;
     font-weight: 800;
     font-size: 20px;
 }
 
 .github-link:hover, .certification-icon:hover{
     color: rgb(255, 159, 159);
+}
+
+@media(max-width: 460px){
+    .profile-container{
+        margin: 100px 30px;
+    }
 }
 
 /* PROJECTS */
