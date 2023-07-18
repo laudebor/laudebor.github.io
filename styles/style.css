@@ -85,6 +85,49 @@ body{
     cursor: pointer;
 }
 
+@media(max-width: 940px){
+    .description-container{
+        width: 800px;
+    }
+}
+
+@media(max-width: 840px){
+    .description-container{
+        width: 700px;
+    }
+}
+
+@media(max-width: 750px){
+    .description-container{
+        width: 600px;
+        font-size: 16px;
+        height: 400px;
+    }
+    .portfolio-title{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 640px){
+    .description-container{
+        flex-direction: column;
+        height: auto;
+        width:auto;
+        padding: 30px;
+        margin: 30px;
+    }
+    .navbar-brand{
+        font-size: 16px !important;
+    }
+}
+
+@media(max-width: 360px){
+    .navbar-brand{
+        font-size: 12px !important;
+    }
+}
+
+
 /* PROFILE */
 
 .profile-container{
