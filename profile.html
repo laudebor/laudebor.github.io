@@ -2,127 +2,197 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laura de Borbon - Profile</title>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!--Custom styles-->
-    <link rel="stylesheet" href="styles/style.css">
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <!--Icons-->
-    <script src="https://kit.fontawesome.com/048b18a12b.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura de Borbon - Profile</title>
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!--Custom styles-->
+  <link rel="stylesheet" href="styles/style.css">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!--Icons-->
+  <script src="https://kit.fontawesome.com/048b18a12b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Laura de Borbón | Web Developer</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Laura de Borbón | Web Developer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="profile.html">Who I am</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="contact.html">Get in touch</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+
+
+
+
+
+    <div class="profile-container">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <i class="fa-solid fa-address-card"></i> &nbsp; Profile
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="profile.html">Who I am</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="contact.html">Get in touch</a>
-                    </li>
-                </ul>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Studious, responsible, fast learner, passionate about technology, collaborative, teamwork.
+              Experience developing Web APIs as a team, both backend and full stack. Technologies applied: Spring Boot,
+              Java, Hibernate, MySQL, HTML, CSS, Thymeleaf, Git, among others.
+              Experience developing web database applications with Caspio.
+              Mathematical education and skills like problem solving, logic and critical thinking.
             </div>
+          </div>
         </div>
-    </nav>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="fa-solid fa-diagram-project"></i> &nbsp; API Web Projects
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>RESTful Java Backend API for a fictional NGO (Skill Up).</strong> Technologies: Java, Spring
+                  Boot, Spring Security, Junit5, Mockito, Swagger. <a
+                    href="https://github.com/laudebor/ONG-API-Java-Backend" class="github-link" target="_blank"> <i
+                      class="fa-solid fa-square-arrow-up-right"></i></a>
+                </li>
+                <li>
+                  <strong>RESTful Java Backend API to manage Disney movies (Skill Up Entrance Challenge).</strong>
+                  Technologies: Java, Spring Boot, Spring Security, MySQL. <a
+                    href="https://github.com/laudebor/Pre-aceleracion-deBorbon-Laura" class="github-link"
+                    target="_blank"> <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </li>
+                <li>
+                  <strong>Full Stack API Web to make surveys (course final project).</strong> Technologies: Java, Spring
+                  Boot, HTML, CSS, Thymeleaf, MySQL. <a href="https://github.com/laudebor/AMQApp" class="github-link"
+                    target="_blank"> <i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <i class="fa-solid fa-user-tie"></i> &nbsp; Professional Experience
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>Tech Consultant.</strong> Internship at Fendous Sustainable Solutions, Denmark. From March to
+                  June 2023. Responsible for the development and design of database web applications using the Caspio
+                  platform for the backend, and HTML and CSS for the frontend. Creation of documentation, testing and
+                  production of content.
+                </li>
+                <li>
+                  <strong>Mathematics University Professor.</strong> Head of Practical Works. FCE - UNCuyo. Subject:
+                  Math I (linear algebra). From March 2019 to June 2023. Teaching classes, production of practical
+                  works, correcting exams, among other tasks.
+                </li>
+                <li>
+                  <strong>Professor of the pre-university Math Module.</strong> FCE - UNCuyo. Year 2019. Teaching
+                  classes and correcting exams.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              <i class="fa-solid fa-laptop-code"></i> &nbsp; Web Development Training
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>Skill Up Java Backend.</strong> Alkemy, Argentina. Issue: October 2022. Technologies: Java,
+                  Spring Boot, Spring Security, Hibernate, MySQL, JUnit5, Mockito, Swagger, Git, IntelliJ IDEA, Postman,
+                  among others. <a
+                    href="https://assets.alkemy.org/certificates/auth0%7C628bf0d9bd4bb8006973dd44/ACCELERATION_CERTIFICATE/aca8f910-e0e7-4640-8145-3f8fd8fef6de.pdf"
+                    class="certification-icon" target="_blank"><i class="fa-solid fa-certificate"></i></a>
+                </li>
+                <li>
+                  <strong>Full Stack Web Programming Course.</strong> Egg Company, Argentina. From August 2021 to June
+                  2022. Basic content: Java, Object-Oriented Programming, MySQL, JPA, Spring Boot, Thymeleaf, HTML, CSS.
+                  <a href="https://drive.google.com/file/d/1FqnRru5lSy-QrhaLsG1_z3AyRGi828WT/view"
+                    class="certification-icon" target="_blank"><i class="fa-solid fa-certificate"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+              <i class="fa-solid fa-user-graduate"></i> &nbsp; Education
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>PhD in Mathematical Sciences.</strong> Graduated from FCFMyN-UNSL, San Luis, Argentina. From
+                  2018 to 2022. Qualification: Outstanding.
+                </li>
+                <li>
+                  <strong>Master's degree in Mathematics.</strong> Graduated from FCFMyN-UNSL, San Luis, Argentina. From
+                  2018 to 2021. Qualification: Outstanding.
+                </li>
+                <li>
+                  <strong>Mathematics degree.</strong> Licenciatura with thesis. Graduated from FCEN-UNCuyo, Mendoza,
+                  Argentina. From 2013 to 2018. Qualification: 9.69/10.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
+      </div>
 
-    <section>
-
-
-        
-
-
-        <div class="profile-container">
-
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Profile
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Professional Experience
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      API Web Projects
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                        Web Development Training
-                      </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
-                        Education
-                      </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-
-              </div>
-
-        <!-- <div class="prof-section">
+      <!-- <div class="prof-section">
             <h3 class="profile-section-title">
                 Profile
             </h3>
@@ -150,8 +220,8 @@
 
     </div>
 
-        
-        <!-- <div class="profile-container">
+
+    <!-- <div class="profile-container">
 
             <div class="cards-container">
                 
@@ -172,16 +242,16 @@
             </div>
         </div> -->
 
-    </section>
+  </section>
 
-    <!--Popper and JS-->
+  <!--Popper and JS-->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
 
 </body>
 

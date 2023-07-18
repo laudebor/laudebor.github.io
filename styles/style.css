@@ -119,6 +119,17 @@ body{
     color: white !important;
 }
 
+.github-link, .certification-icon{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.github-link:hover, .certification-icon:hover{
+    color: rgb(255, 159, 159);
+}
+
 
 
 
