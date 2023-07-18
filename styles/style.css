@@ -299,7 +299,7 @@ body {
 @media(max-width: 1100px) {
     .project-slide {
         flex-direction: column;
-        height: 500px;
+        height: 550px;
     }
 
     .img-container,
@@ -320,9 +320,12 @@ body {
 
 }
 
-@media(max-width: 750px){
+@media(max-width: 850px){
     .project-slide{
         height: 600px;
+    }
+    .project-container {
+        width: 70%;
     }
 }
 
@@ -333,11 +336,8 @@ body {
 }
 
 @media(max-width: 470px){
-    .project-container {
-        width: 60%;
-    }
     .project-slide{
-        height: 650px;
+        height: 700px;
     }
 }
 
