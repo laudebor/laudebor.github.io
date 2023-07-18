@@ -178,9 +178,41 @@ body{
     color: rgb(255, 159, 159);
 }
 
-.fa-square-github, .fa-square-arrow-up-right{
+.fa-github, .fa-square-arrow-up-right{
     font-size: 20px;
 }
+
+/* CONTACT */
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contact-info{
+    background: rgb(80, 77, 77);
+    padding:50px;
+    border-radius: 6px;
+    color:white;
+    text-align: center;
+}
+
+.custom-link{
+    text-decoration: none;
+    color:white;
+}
+
+.custom-link:hover{
+    color: rgb(255, 159, 159);
+}
+
+.fa-location-dot, .fa-phone, .fa-whatsapp, .fa-envelope, .fa-linkedin{
+    font-size: 20px;
+}
+
+
 
 
 
