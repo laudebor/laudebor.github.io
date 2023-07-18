@@ -130,6 +130,57 @@ body{
     color: rgb(255, 159, 159);
 }
 
+/* PROJECTS */
+
+.projects-carousel-container{
+    margin-top: 100px;
+}
+
+.slide{
+    height:400px;
+}
+
+.project-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    background:  rgb(80, 77, 77);
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project-img{
+    width:450px;
+    border-radius: 6px;
+}
+
+.img-container, .project-container{
+    width:40%;
+}
+
+.project-container{
+    color:white;
+}
+
+.project-title{
+    font-weight: 800;
+}
+
+.project-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.project-link:hover{
+    color: rgb(255, 159, 159);
+}
+
+.fa-square-github, .fa-square-arrow-up-right{
+    font-size: 20px;
+}
 
 
 
