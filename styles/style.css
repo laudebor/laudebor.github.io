@@ -92,6 +92,10 @@ body {
     cursor: pointer;
 }
 
+.navbar-toggler{
+    border-color:white !important;
+}
+
 @media(max-width: 2000px) {
     .navbar {
         font-size: 18px;
