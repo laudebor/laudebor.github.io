@@ -9,6 +9,7 @@ body {
     letter-spacing: 2px !important;
     background-color: rgb(80, 77, 77) !important;
     padding: 20px !important;
+    font-size: 20px;
 }
 
 .navbar-brand {
@@ -34,7 +35,9 @@ body {
 .portfolio-title {
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .big-container {
@@ -46,12 +49,11 @@ body {
 
 .description-container {
     background: rgb(66, 66, 66);
-    width: 900px;
+    width: 60%;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     border-radius: 6px;
     -moz-box-shadow: 0 3px 5px #444343;
     -webkit-box-shadow: 0 3px 5px #444343;
@@ -63,10 +65,11 @@ body {
 .description {
     text-align: center;
     margin: auto 50px;
+    font-size: 25px;
 }
 
 .profile-img {
-    width: 200px;
+    width: 300px;
     margin: 20px;
     border-radius: 6px;
 }
@@ -85,15 +88,46 @@ body {
     cursor: pointer;
 }
 
-@media(max-width: 940px) {
-    .description-container {
-        width: 800px;
+@media(max-width: 2000px){
+    .navbar{
+        font-size: 18px;
+    }
+    .portfolio-title{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .profile-img{
+        width: 250px;
     }
 }
 
-@media(max-width: 840px) {
-    .description-container {
-        width: 700px;
+
+@media(max-width: 1800px){
+    .navbar{
+        font-size: 16px;
+    }
+    .portfolio-title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .profile-img{
+        width: 200px;
+    }
+}
+
+@media(max-width: 1400px){
+    .description-container{
+        width: 80%;
+    }
+}
+
+@media(max-width: 1100px){
+    .description-container{
+        width: 95%;
     }
 }
 
@@ -118,8 +152,18 @@ body {
         margin: 30px;
     }
 
+    .description{
+        width:100%;
+    }
+
     .navbar-brand {
         font-size: 16px !important;
+    }
+}
+
+@media(max-width: 454px){
+    .navbar-toggler{
+        margin-top: 10px !important;
     }
 }
 
