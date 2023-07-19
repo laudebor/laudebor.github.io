@@ -130,6 +130,8 @@ body {
 }
 
 
+
+
 /* PROFILE */
 
 .profile-container {
@@ -188,6 +190,9 @@ body {
         margin: 100px 30px;
     }
 }
+
+
+
 
 /* PROJECTS */
 
@@ -377,45 +382,3 @@ body {
 .fa-linkedin {
     font-size: 20px;
 }
-
-
-
-
-
-/* .profile-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards-container {
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card {
-    display: flex;
-    height: 150px;
-    width: 250px;
-    background-color: #17141d;
-    border-radius: 10px;
-    box-shadow: -1rem 0 3rem #000;
-    transition: 0.4s ease-out;
-    position: relative;
-    left: 0px;
-  }
-  
-  .card:hover {
-    transform: translateY(-20px);
-    transition: 0.4s ease-out;
-  }
-  
-  .title {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-  } */
