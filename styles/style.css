@@ -1,12 +1,14 @@
 body {
     background: rgb(58, 57, 57);
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+    /* letter-spacing: 2px; */
 }
 
 .navbar {
-    font-family: 'Open Sans', sans-serif !important;
-    letter-spacing: 2px !important;
+    /* font-family: 'Open Sans', sans-serif !important; */
+    font-family: 'Source Code Pro', monospace !important;
+    /* letter-spacing: 2px !important; */
     background-color: rgb(80, 77, 77) !important;
     padding: 20px !important;
     font-size: 20px;
@@ -185,8 +187,9 @@ body {
 }
 
 .accordion-button {
-    font-family: 'Open Sans', sans-serif !important;
-    letter-spacing: 2px !important;
+    /* font-family: 'Open Sans', sans-serif !important; */
+    font-family: 'Source Code Pro', monospace !important;
+    /* letter-spacing: 2px !important; */
     background: rgb(80, 77, 77) !important;
     color: white;
 }
@@ -365,6 +368,8 @@ body {
 @media(max-width: 1100px) {
     .project-slide {
         flex-direction: column;
+        justify-content:flex-start;
+        padding-top: 30px;
         height: 500px;
     }
 
@@ -400,7 +405,7 @@ body {
 
 @media(max-width: 470px){
     .project-slide{
-        height: 550px;
+        height: 520px;
     }
 }
 
