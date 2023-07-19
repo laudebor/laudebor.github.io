@@ -31,8 +31,9 @@ body {
 }
 
 .active {
-    color: rgb(255, 159, 159) !important;
+    /* color: rgb(253, 134, 134) !important; */
     /* color: rgb(163, 162, 162) !important; */
+    color: rgb(253, 122, 122) !important;
 }
 
 .portfolio-title {
